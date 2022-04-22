@@ -1,0 +1,5 @@
+name: Trident4
+version: '${project.version}'
+main: com.aspectx.trident.trident4.Trident4
+api-version: 1.17
+authors: [ Aspectx ]
