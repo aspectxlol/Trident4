@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.aspectx.trident</groupId>
-    <artifactId>trident4</artifactId>
-    <version>Alpha 0.0</version>
+    <artifactId>Trident4</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>Trident4</name>
@@ -39,6 +39,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <outputDirectory>../Builds</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>

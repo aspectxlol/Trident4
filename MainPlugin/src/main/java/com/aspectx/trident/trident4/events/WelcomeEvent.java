@@ -1,11 +1,12 @@
-package com.aspectx.trident.trident4.eventManager;
+package com.aspectx.trident.trident4.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-public class Events implements Listener {
+public class WelcomeEvent implements Listener {
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         e.setJoinMessage("§b[§a+§b]§a " + e.getPlayer().getName());
